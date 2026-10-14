@@ -8,7 +8,6 @@ int main() {
     cout << "Masukkan sebuah bilangan: ";
     cin >> bilangan;
 
-    // Jika habis dibagi 2, maka genap; jika tidak, ganjil
     if (bilangan % 2 == 0) {
         cout << bilangan << " adalah bilangan genap." << endl;
     } else {
